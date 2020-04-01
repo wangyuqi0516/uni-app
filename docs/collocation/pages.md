@@ -84,7 +84,7 @@
   "easycom": {
     "autoscan": true, //是否自动扫描组件
     "custom": {//自定义扫描规则
-      "uni-(.*)": "@/components/uni-$1.vue"
+      "uni-(.*)": "@/components/uni-$1/uni-$1.vue"
     }
   }
 }
